@@ -11,4 +11,9 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme } : {theme: any}) => theme.text};
     transition: all 0.25s linear;
   }
+  a, 
+  p, 
+  button {
+    color: ${({ theme } : {theme: any}) => theme.text};
+  }
 `;

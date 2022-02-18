@@ -1,5 +1,5 @@
-import '../styles/globals.css'
 import React from 'react'
+import '../styles/styles.css'
 import PageWithLayoutType from '../types/pageWithLayoutType'
 import { ThemeProvider } from 'styled-components'
 import { lightTheme, darkTheme } from '../styles/Theme'
